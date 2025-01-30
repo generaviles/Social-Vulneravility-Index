@@ -5,3 +5,10 @@ This is a book created from markdown and executable code.
 See @knuth84 for additional discussion of literate programming.
 
 Para el caso del Índice de vulnerabilidad social, es importante tener en cuenta los trabajos de @spielman2020evaluating y @mah2023social.
+
+
+$$
+666
+$$
+
+Hello 
