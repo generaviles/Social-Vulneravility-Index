@@ -1,14 +1,9 @@
 # Introducción
 
-This is a book created from markdown and executable code.
+El Índice de Vulnerabilidad Social (IVS) es una medida compuesta utilizada para evaluar el grado de vulnerabilidad de diferentes poblaciones ante riesgos socioeconómicos y ambientales. Se calcula a partir de diversas dimensiones, como la pobreza, la educación, el acceso a servicios de salud y la infraestructura. Este índice es ampliamente utilizado en estudios epidemiológicos, políticas públicas y estrategias de intervención comunitaria, permitiendo identificar poblaciones en mayor riesgo y diseñar estrategias para reducir su vulnerabilidad.
 
-See @knuth84 for additional discussion of literate programming.
+Dado que la vulnerabilidad social es un fenómeno complejo, la actualización constante del IVS y su adaptación a las realidades regionales y locales son esenciales para mejorar las condiciones de vida de los sectores más desfavorecidos y promover un desarrollo equitativo y sostenible.
+
+Este documento detalla el modelo empleado, los componentes, indicadores y variables utilizadas en la elaboración del IVS, proporcionando una comprensión integral de su estructura y aplicación.
 
 Para el caso del Índice de vulnerabilidad social, es importante tener en cuenta los trabajos de @spielman2020evaluating y @mah2023social.
-
-
-$$
-666
-$$
-
-Hello 

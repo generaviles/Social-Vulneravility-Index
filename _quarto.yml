@@ -7,17 +7,21 @@ book:
   date: "1/27/2025"
   chapters:
     - index.qmd
-    - intro.qmd
     - summary.qmd
+    - intro.qmd
+    - antecedentes.qmd
+    - metodo.qmd
+    - result.qmd
     - references.qmd
 
 bibliography: references.bib
+csl: ieee.csl
 
 format:
   html:
     theme: cosmo
+    css: styles.css
   pdf:
     documentclass: scrreprt
-
 
 

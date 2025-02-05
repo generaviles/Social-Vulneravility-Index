@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>1&nbsp; Introducción – Índice de Vulnerablidad Social</title>
+<title>2&nbsp; Introducción – Índice de Vulnerablidad Social</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -50,8 +50,8 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./summary.html" rel="next">
-<link href="./index.html" rel="prev">
+<link href="./antecedentes.html" rel="next">
+<link href="./summary.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -89,36 +89,8 @@ div.csl-indent {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar floating">
@@ -130,7 +102,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./intro.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introducción</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./intro.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introducción</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -163,14 +135,32 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introducción</span></span></a>
+  <a href="./summary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Resumen</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./summary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Resumen</span></span></a>
+  <a href="./intro.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introducción</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./antecedentes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Antecedentes</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./metodo.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Método</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./result.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Resultados</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -192,7 +182,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introducción</span></h1>
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introducción</span></h1>
 </div>
 
 
@@ -209,24 +199,18 @@ window.Quarto = {
 </header>
 
 
-<p>This is a book created from markdown and executable code.</p>
-<p>See <span class="citation" data-cites="knuth84">Knuth (<a href="references.html#ref-knuth84" role="doc-biblioref">1984</a>)</span> for additional discussion of literate programming.</p>
-<p>Para el caso del Índice de vulnerabilidad social, es importante tener en cuenta los trabajos de <span class="citation" data-cites="spielman2020evaluating">Spielman et al. (<a href="references.html#ref-spielman2020evaluating" role="doc-biblioref">2020</a>)</span> y <span class="citation" data-cites="mah2023social">Mah et al. (<a href="references.html#ref-mah2023social" role="doc-biblioref">2023</a>)</span>.</p>
-<p><span class="math display">\[
-666
-\]</span></p>
-<p>Hello</p>
+<p>El Índice de Vulnerabilidad Social (IVS) es una medida compuesta utilizada para evaluar el grado de vulnerabilidad de diferentes poblaciones ante riesgos socioeconómicos y ambientales. Se calcula a partir de diversas dimensiones, como la pobreza, la educación, el acceso a servicios de salud y la infraestructura. Este índice es ampliamente utilizado en estudios epidemiológicos, políticas públicas y estrategias de intervención comunitaria, permitiendo identificar poblaciones en mayor riesgo y diseñar estrategias para reducir su vulnerabilidad.</p>
+<p>Dado que la vulnerabilidad social es un fenómeno complejo, la actualización constante del IVS y su adaptación a las realidades regionales y locales son esenciales para mejorar las condiciones de vida de los sectores más desfavorecidos y promover un desarrollo equitativo y sostenible.</p>
+<p>Este documento detalla el modelo empleado, los componentes, indicadores y variables utilizadas en la elaboración del IVS, proporcionando una comprensión integral de su estructura y aplicación.</p>
+<p>Para el caso del Índice de vulnerabilidad social, es importante tener en cuenta los trabajos de <span class="citation" data-cites="spielman2020evaluating"><a href="references.html#ref-spielman2020evaluating" role="doc-biblioref">[1]</a></span> y <span class="citation" data-cites="mah2023social"><a href="references.html#ref-mah2023social" role="doc-biblioref">[2]</a></span>.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
-<div id="ref-knuth84" class="csl-entry" role="listitem">
-Knuth, Donald E. 1984. <span>“Literate Programming.”</span> <em>Comput. J.</em> 27 (2): 97–111. <a href="https://doi.org/10.1093/comjnl/27.2.97">https://doi.org/10.1093/comjnl/27.2.97</a>.
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-spielman2020evaluating" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] </div><div class="csl-right-inline">S. E. Spielman <em>et al.</em>, <span>“Evaluating social vulnerability indicators: Criteria and their application to the social vulnerability index,”</span> <em>Natural hazards</em>, vol. 100, pp. 417–436, 2020.</div>
 </div>
 <div id="ref-mah2023social" class="csl-entry" role="listitem">
-Mah, Jasmine Cassy, Jodie Lynn Penwarden, Henrique Pott, Olga Theou, and Melissa Kathryn Andrew. 2023. <span>“Social Vulnerability Indices: A Scoping Review.”</span> <em>BMC Public Health</em> 23 (1): 1253.
-</div>
-<div id="ref-spielman2020evaluating" class="csl-entry" role="listitem">
-Spielman, Seth E, Joseph Tuccillo, David C Folch, Amy Schweikert, Rebecca Davies, Nathan Wood, and Eric Tate. 2020. <span>“Evaluating Social Vulnerability Indicators: Criteria and Their Application to the Social Vulnerability Index.”</span> <em>Natural Hazards</em> 100: 417–36.
+<div class="csl-left-margin">[2] </div><div class="csl-right-inline">J. C. Mah, J. L. Penwarden, H. Pott, O. Theou, and M. K. Andrew, <span>“Social vulnerability indices: A scoping review,”</span> <em>BMC public health</em>, vol. 23, no. 1, p. 1253, 2023.</div>
 </div>
 </div>
 
@@ -650,13 +634,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link" aria-label="Prefacio">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Prefacio</span>
+      <a href="./summary.html" class="pagination-link" aria-label="Resumen">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Resumen</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./summary.html" class="pagination-link" aria-label="Resumen">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Resumen</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./antecedentes.html" class="pagination-link" aria-label="Antecedentes">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Antecedentes</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
