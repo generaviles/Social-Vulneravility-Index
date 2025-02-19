@@ -1,0 +1,9 @@
+# Datos
+
+## Base de datos para obtener la clave geográfica e indicadores para la construcción del IVS
+
+- **Fuente:** [Datos abiertos del Censo de Población y Vivienda 2020 del INEGI, específicamente de las Áreas Geoestadísticas Básicas (AGEB) de Michoacán de Ocampo (9.67 MB)](https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos)
+
+## Fundamentos de la Metodología
+- **Fuente:** [Atlas de vulnerabilidad hídrica en México ante el cambio climático, 2015](https://www.imta.gob.mx/biblioteca/libros_html/atlas-2016/files/assets/common/downloads/publication.pdf)
+

@@ -1,0 +1,3 @@
+# Objetivo
+
+Determinar el índice de vulnerabilidad social a nivel de manzanas ante la amenaza de inundaciones por el cambio climático asociada a su clave geográfica.

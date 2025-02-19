@@ -10,6 +10,8 @@ book:
     - summary.qmd
     - intro.qmd
     - antecedentes.qmd
+    - objetivo.qmd
+    - datos.qmd
     - metodo.qmd
     - result.qmd
     - references.qmd
