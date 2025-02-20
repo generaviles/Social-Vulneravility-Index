@@ -1,11 +1,3 @@
 # Resultados
 
 ## Mapas de vulnerabilidad social
-
-```{python}
-#| echo: false  # Oculta el código en el documento final
-
-from IVS import df_depurado  # Importa solo el DataFrame sin ejecutar todo el script
-df_depurado.head()
-```
-

@@ -1,5 +1,6 @@
 project:
   type: book
+  output-dir: docs
 
 book:
   title: "Índice de Vulnerablidad Social"
@@ -21,9 +22,5 @@ csl: ieee.csl
 
 format:
   html:
-    theme: cosmo
+    theme: darkly
     css: styles.css
-  pdf:
-    documentclass: scrreprt
-
-
