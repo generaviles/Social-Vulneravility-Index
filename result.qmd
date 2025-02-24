@@ -2,7 +2,7 @@
 
 ## Mapa de vulnerabilidad social
 
-El siguiente mapa representa la distribución del Índice de Vulnerabilidad Social (IVS) en los alrededores de la presa La Villita, en Michoacán de Ocampo. Para su elaboración, se construyó una base de datos que vincula las etiquetas de vulnerabilidad con su respectiva clave geográfica (CVEGEO).
+El siguiente mapa representa la distribución del Índice de Vulnerabilidad Social en los alrededores de la presa La Villita, en Michoacán de Ocampo. Para su elaboración, se construyó una base de datos que vincula las etiquetas de vulnerabilidad con su respectiva clave geográfica (CVEGEO).
 
 Esta categorización se obtuvo mediante una aproximación estadística basada en umbrales, lo que permite una interpretación comparativa de la vulnerabilidad en la zona de estudio.
 
@@ -10,16 +10,19 @@ Los niveles de vulnerabilidad se clasifican en cinco categorías representadas p
 
 * Muy baja
 * Baja
-* Mmedia
+* Media
 * Alta
 * Muy alta 
   
 Además, se señalan las áreas donde no se contó con suficientes datos para realizar una clasificación precisa.
 
+::: {style="text-align: center;"}
 ![Mapa de Vulnerabilidad Social en los alrededores de la presa La Villita (fondo satelital)](images/MapaMichoacanIVS.png){width=700}
+:::
 
+::: {style="text-align: center;"}
 ![Mapa de Vulnerabilidad Social en los alrededores de la presa La Villita](images/MapaMichoacanIVS2.png){width=700}
-
+:::
 
 **Código de Colores**
 
@@ -28,7 +31,6 @@ Además, se señalan las áreas donde no se contó con suficientes datos para re
     <td style="width: 40px; height: 40px; background-color: #d7191c;"></td>
     <td style="padding-left: 10px;">Muy Alta</td>
   </tr>
-
  
   <tr>
     <td style="width: 40px; height: 40px; background-color: #f07c4a;"></td>

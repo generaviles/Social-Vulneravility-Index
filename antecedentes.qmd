@@ -4,28 +4,22 @@ La vulnerabilidad como fenómeno social, implica la presencia de una condición 
 
 El IVS del Sistema Nacional para el Desarrollo Integral de la Familia (DIF) es un componente clave de la Fórmula para la Distribución del Presupuesto del Ramo 33 Fondo V.i. Surge como una respuesta a la necesidad de distribuir los recursos del país en función de criterios pertinentes y correspondientes a la problemática que atiende el DIF @sndif20017formula. 
 
-![DIF](images/dif.jpeg){width=300}
+::: {style="text-align: center;"}
+![Sistema Nacional para el Desarrollo Integral de la Familia (DIF)](images/dif.jpeg){width=300}
+:::
 
 Mediante el IVS, se mide la magnitud de la población objetivo que es atendida con los programas de la Estrategia Integral de Asistencia Social Alimentaria (EIASA). El primer cálculo del IVS fue en 2002 y la fórmula incorporaba distintos componentes que competen a la asistencia social, con una base de cálculo específica y diversas variables. Desde entonces, la fórmula y sus cálculos se han continuado actualizando, utilizando las fuentes de información recientes @sndif20017formula. En este sentido, el IVS se basa en variables sociales, económicas, educativas y de salud, considerando dos grandes tipos de vulnerabilidad: la familiar e individual, y la infantil @sndif20017formula. Este índice permite a los Sistemas Estatales DIF analizar la vulnerabilidad social en cada estado, destacando problemas específicos y su intensidad. Facilita la focalización de las acciones en zonas del país con mayor incidencia de vulnerabilidad, identificando aquellos sectores que requieren de atención prioritaria. La fórmula que valora el IVS permite establecer en mayor medida una situación más objetiva, equitativa y transparente en la distribución de los recursos, respetando la diversidad regional y estatal, multicultural, étnica, de género y generacional @sndif2002formula. 
 
-![EIASA](images/eiasa.jpeg){width=300}
+::: {style="text-align: center;"}
+![Estrategia Integral de Asistencia Social Alimentaria (EIASA)](images/eiasa.jpeg){width=300}
+:::
 
 Otro ejemplo de la aplicación del Índice de Vulnerabilidad fue el reporte del Índice de Vulnerabilidad Municipal a la COVID-19, cuyo objetivo fue identificar los municipios más vulnerables ante la amenaza de la enfermedad y entender qué características están más ligadas a esta vulnerabilidad. Para ello, se consideraron aspectos clave como el desarrollo social, la economía y la salubridad @SierraAlcocer2020Indice.
 
 Por otro lado, diversas organizaciones han desarrollado índices que abordan distintos aspectos de la vulnerabilidad social, adaptándose a las problemáticas específicas que cada una atiende por medio de diversos criterios o indicadores. Por ejemplo, el Índice de Marginación (IM) del Consejo Nacional de Población (CONAPO) evalúa el grado de marginación de las poblaciones en México. El Índice de Desarrollo Humano (IDH) del Programa de las Naciones Unidas para el Desarrollo (PNUD) mide el progreso de los países en dimensiones como la salud, la educación y el nivel de vida. Por su parte, el Índice de Rezago Social (IRS) del Consejo Nacional de Evaluación de la Política de Desarrollo Social (CONEVAL) permite identificar las carencias sociales en las entidades federativas, municipios y localidades de México @tecscience2022vulnerabilidad.
 
-El siguiente diagrama proporciona una representación visual sintética de los principales conceptos abordados en los antecedentes. A través de esta estructura, se ilustran las interrelaciones entre los distintos componentes de la vulnerabilidad social, destacando su impacto y las herramientas utilizadas para su análisis y mitigación.
+El siguiente diagrama proporciona una representación visual de los principales conceptos abordados. A través de esta estructura, se ilustran las interrelaciones entre los distintos componentes de la vulnerabilidad social, destacando su impacto y las herramientas utilizadas para su análisis y mitigación.
 
-![Diagrama IVS](images/diagrama.jpeg){width=700}
-
-
-
-
-
-
-
-
-
-
-
-
+::: {style="text-align: center;"}
+![Diagrama Ilustrativo de IVS en Diversos Sectores](images/diagrama.jpeg){width=700}
+:::

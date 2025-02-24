@@ -4,6 +4,4 @@ El Índice de Vulnerabilidad Social (IVS) es una medida compuesta utilizada para
 
 Dado que la vulnerabilidad social es un fenómeno complejo, la actualización constante del IVS y su adaptación a las realidades regionales y locales son esenciales para mejorar las condiciones de vida de los sectores más desfavorecidos y promover un desarrollo equitativo y sostenible.
 
-Este documento detalla el modelo empleado, los componentes, indicadores y variables utilizadas en la elaboración del IVS, proporcionando una comprensión integral de su estructura y aplicación.
-
-Para el caso del Índice de vulnerabilidad social, es importante tener en cuenta los trabajos de @spielman2020evaluating y @mah2023social.
+Este documento presenta el modelo empleado, junto con los componentes, indicadores y procesos utilizados en la elaboración del Índice de Vulnerabilidad Social en un caso específico, proporcionando una visión integral de su estructura y aplicación.
