@@ -152,7 +152,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./result.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Resultados</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Índice de Colores</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -261,36 +261,87 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>PROM_OCUP:</strong> Promedio de ocupantes en viviendas particulares habitadas (este indicador mide cuántas personas, en promedio, viven en cada vivienda particular habitada).</li>
 </ol>
 <p>Finalmente, este estudio emplea 13 indicadores provenientes de la base de datos del INEGI, los cuales se presentan a continuación, organizados por categoría temática:</p>
-<ol type="1">
-<li>Población
-<ol type="a">
-<li><strong>POBTOT:</strong> Población total.</li>
-<li><strong>PROM_OCUP:</strong> Promedio de ocupantes en viviendas particulares habitadas.</li>
-<li><strong>P3YM_HLI:</strong> Porcentaje de población de habla indígena.</li>
-<li><strong>PHOGJEF_F:</strong> Población en hogares censales con persona de referencia mujer (porcentaje de jefas de familia).</li>
-</ol></li>
-<li>Educación
-<ol type="a">
-<li><strong>P15YM_AN:</strong> Porcentaje de analfabetismo (% de población de 15 años y más que no sabe leer ni escribir).</li>
-<li><strong>GRAPROES:</strong> Grado promedio de escolaridad.</li>
-</ol></li>
-<li>Salud
-<ol type="a">
-<li><strong>PSINDER:</strong> Porcentaje de población no derechohabiente (% de población que no cuenta con servicios de salud pública).</li>
-</ol></li>
-<li>Empleo
-<ol type="a">
-<li><strong>PEA:</strong> Porcentaje de la población económicamente activa que recibe menos de dos salarios mínimos.</li>
-<li><strong>POB15_64:</strong> Razón dependiente (% de población dependiente –menores de 15 años y mayores de 65 años– con relación a la población económicamente productiva).</li>
-</ol></li>
-<li>Vivienda
-<ol type="a">
-<li><strong>TVIVHAB:</strong> Total de viviendas.</li>
-<li><strong>VPH_AGUAFV:</strong> Porcentaje de viviendas sin agua entubada.</li>
-<li><strong>VPH_NODREN:</strong> Porcentaje de viviendas sin drenaje.</li>
-<li><strong>VPH_PISOTI:</strong> Porcentaje de viviendas con piso de tierra.</li>
-</ol></li>
-</ol>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 10%">
+<col style="width: 80%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Categoría</strong></th>
+<th><strong>Indicador</strong></th>
+<th><strong>Descripción</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Población</strong></td>
+<td>POBTOT</td>
+<td>Población total</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>PROM_OCUP</td>
+<td>Promedio de ocupantes en viviendas particulares habitadas</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>P3YM_HLI</td>
+<td>Porcentaje de población de habla indígena</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>PHOGJEF_F</td>
+<td>Población en hogares censales con persona de referencia mujer (porcentaje de jefas de familia)</td>
+</tr>
+<tr class="odd">
+<td><strong>Educación</strong></td>
+<td>P15YM_AN</td>
+<td>Porcentaje de analfabetismo (% de población de 15 años y más que no sabe leer ni escribir)</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>GRAPROES</td>
+<td>Grado promedio de escolaridad</td>
+</tr>
+<tr class="odd">
+<td><strong>Salud</strong></td>
+<td>PSINDER</td>
+<td>Porcentaje de población no derechohabiente (% de población que no cuenta con servicios de salud pública)</td>
+</tr>
+<tr class="even">
+<td><strong>Empleo</strong></td>
+<td>PEA</td>
+<td>Porcentaje de la población económicamente activa que recibe menos de dos salarios mínimos</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>POB15_64</td>
+<td>Razón dependiente (% de población dependiente –menores de 15 años y mayores de 65 años– con relación a la población económicamente productiva)</td>
+</tr>
+<tr class="even">
+<td><strong>Vivienda</strong></td>
+<td>TVIVHAB</td>
+<td>Total de viviendas</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>VPH_AGUAFV</td>
+<td>Porcentaje de viviendas sin agua entubada</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>VPH_NODREN</td>
+<td>Porcentaje de viviendas sin drenaje</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>VPH_PISOTI</td>
+<td>Porcentaje de viviendas con piso de tierra</td>
+</tr>
+</tbody>
+</table>
 <p>Todas los indicadores, excepto <strong>PROM_OCUP</strong> y <strong>GRAPROES</strong>, no están reportados como porcentajes por el INEGI, sino como valores absolutos, por lo que es necesario calcular sus porcentajes. <strong>POBTOT</strong> y <strong>TVIVHAB</strong> sirvieron como base para estos cálculos. En el caso de <strong>POB15_64</strong>, primero se obtuvo su valor restándolo de <strong>POBTOT</strong> y posteriormente se calculó el porcentaje correspondiente.</p>
 <p>Debido a que <strong>POBTOT</strong> y <strong>TVIVHAB</strong> no se emplearán para asignarles una calificación ni una etiqueta de IVS, el cálculo de estadísticas para el método se basa únicamente en los <strong>11 indicadores</strong> restantes.</p>
 </section>
@@ -298,24 +349,36 @@ ul.task-list li input[type="checkbox"] {
 <h2 data-number="6.3" class="anchored" data-anchor-id="ponderación-de-indicadores"><span class="header-section-number">6.3</span> Ponderación de indicadores</h2>
 <p>En la nueva versión del IVS del IMTA, los indicadores fueron ponderados de manera distinta a la versión de 2010, cuando casi todos tenían un peso uniforme de 1.0. En esta actualización, se decidió asignar un peso diferenciado a cada indicador en los índices de vulnerabilidad temáticos, tras analizar su impacto en la vulnerabilidad social y la respuesta ante eventos meteorológicos. Estos cambios en la nueva versión permiten ajustar la ponderación según los ejes temáticos y reflejar con mayor precisión la situación de los municipios del país.</p>
 <p>A continuación, se presentan las ponderaciones de las variables coincidentes entre el método reciente del IMTA y el presente estudio.</p>
-<ul>
-<li>Ponderación de 1.0.
-<ol type="1">
-<li><strong>P3YM_HLI:</strong> Porcentaje de población de habla indígena.</li>
-<li><strong>PHOGJEF_F:</strong> Población en hogares censales con persona de referencia mujer.</li>
-<li><strong>P15YM_AN:</strong> Porcentaje de analfabetismo.</li>
-<li><strong>POB15_64:</strong> Población dependiente.</li>
-<li><strong>VPH_PISOTI:</strong> Porcentaje de viviendas con piso de tierra.</li>
-</ol></li>
-<li>Ponderación de 2.0.
-<ol type="1">
-<li><strong>GRAPROES:</strong> Grado promedio de escolaridad.</li>
-<li><strong>PSINDER:</strong> Porcentaje de población no derechohabiente.</li>
-<li><strong>PEA:</strong> Porcentaje de la población económicamente activa que recibe menos de dos salarios mínimos.</li>
-<li><strong>VPH_AGUAFV:</strong> Porcentaje de viviendas sin agua entubada.</li>
-<li><strong>VPH_NODREN:</strong> Porcentaje de viviendas sin drenaje.</li>
-</ol></li>
-</ul>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th><strong>Ponderación de 1.0</strong></th>
+<th><strong>Ponderación de 2.0</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>P3YM_HLI</td>
+<td>GRAPROES</td>
+</tr>
+<tr class="even">
+<td>PHOGJEF_F</td>
+<td>PSINDER</td>
+</tr>
+<tr class="odd">
+<td>P15YM_AN</td>
+<td>PEA</td>
+</tr>
+<tr class="even">
+<td>POB15_64</td>
+<td>VPH_AGUAFV</td>
+</tr>
+<tr class="odd">
+<td>VPH_PISOTI</td>
+<td>VPH_NODREN</td>
+</tr>
+</tbody>
+</table>
 <p>Al indicador <strong>PROM_OCUP</strong>, se le asignó ponderación de 1 por pertenecer a la misma categoría que los demás indicadores de población a pesar no estar indicada en la metodología base del IMTA. De este modo, tenemos la ponderación de los <strong>11 indicadores</strong> de interés.</p>
 <p>El indicador <strong>TVIVHAB</strong> y <strong>POBTOT</strong> no recibieron ponderación en este ejercicio, ya que se utiliza únicamente para calcular los porcentajes de los indicadores de vivienda y población, respectivamente, y no para asignar una calificación ni una etiqueta de IVS.</p>
 </section>
@@ -332,15 +395,44 @@ ul.task-list li input[type="checkbox"] {
 <ol type="a">
 <li>El primer umbral se obtiene sumando el intervalo al valor menor.</li>
 <li>El segundo umbral se obtiene sumando el intervalo al primer umbral.</li>
-<li>Se repite el proceso sucesivamente hasta obtener los cinco umbrales que representan los distintos niveles de vulnerabilidad:
-<ol type="i">
-<li>Muy Baja: Valores entre el mínimo y el primer umbral (mínimo + intervalo).</li>
-<li>Baja: Valores entre el primer y el segundo umbral (mínimo + 2 * intervalo).</li>
-<li>Media: Valores entre el segundo y el tercer umbral (mínimo + 3 * intervalo).</li>
-<li>Alta: Valores entre el tercer y el cuarto umbral (mínimo + 4 * intervalo).</li>
-<li>Muy Alta: Valores mayores que el cuarto umbral (más allá de mínimo + 4 * intervalo).</li>
+<li>Se repite el proceso sucesivamente hasta obtener los cinco umbrales que representan los distintos niveles de vulnerabilidad:</li>
 </ol></li>
-</ol></li>
+</ol>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 75%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Rango de Valores</th>
+<th>Nivel de Vulnerabilidad</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Valores entre el mínimo y el primer umbral (mínimo + intervalo)</td>
+<td>Muy Baja</td>
+</tr>
+<tr class="even">
+<td>Valores entre el primer y el segundo umbral (mínimo + 2 * intervalo)</td>
+<td>Baja</td>
+</tr>
+<tr class="odd">
+<td>Valores entre el segundo y el tercer umbral (mínimo + 3 * intervalo)</td>
+<td>Media</td>
+</tr>
+<tr class="even">
+<td>Valores entre el tercer y el cuarto umbral (mínimo + 4 * intervalo)</td>
+<td>Alta</td>
+</tr>
+<tr class="odd">
+<td>Valores mayores que el cuarto umbral (más allá de mínimo + 4 * intervalo)</td>
+<td>Muy Alta</td>
+</tr>
+</tbody>
+</table>
+<ol start="3" type="1">
 <li><strong>Ajuste para variables de logro o satisfacción.</strong>
 <ol type="a">
 <li>En estos casos, el valor mayor se convierte en el umbral más bajo.</li>
@@ -350,28 +442,102 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 <p>Aplicable a indicadores como el grado promedio de escolaridad (GRAPROES) y la población económicamente activa (PEA).</p>
 <ol start="4" type="1">
-<li><p><strong>Asignación de calificación según los umbrales.</strong></p>
-<ol type="a">
-<li>Indicadores con ponderación de 1.0.
-<ol type="i">
-<li>Valores dentro del primer umbral → Calificación de 0.20 (Muy Baja Vulnerabilidad).</li>
-<li>Valores dentro del segundo umbral → Calificación de 0.40 (Baja Vulnerabilidad).</li>
-<li>Valores dentro del tercer umbral → Calificación de 0.60 (Media Vulnerabilidad).</li>
-<li>Valores dentro del cuarto umbral → Calificación de 0.80 (Alta Vulnerabilidad).</li>
-<li>Valores superiores al cuarto umbral → Calificación de 1.00 o más (Muy Alta Vulnerabilidad).</li>
-</ol></li>
-<li>Indicadores con ponderación de 2.0.
-<ol type="i">
-<li>Valores dentro del primer umbral → Calificación de 0.40 (Muy Baja Vulnerabilidad).</li>
-<li>Valores dentro del segundo umbral → Calificación de 0.80 (Baja Vulnerabilidad).</li>
-<li>Valores dentro del tercer umbral → Calificación de 1.20 (Media Vulnerabilidad).</li>
-<li>Valores dentro del cuarto umbral → Calificación de 1.60 (Alta Vulnerabilidad).</li>
-<li>Valores superiores al cuarto umbral → Calificación de 2.00 o más (Muy Alta Vulnerabilidad).</li>
-</ol></li>
-</ol></li>
+<li><strong>Asignación de calificación según los umbrales.</strong></li>
 </ol>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 17%">
+<col style="width: 31%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Indicadores con ponderación de 1.0</strong></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Rango de Valores</td>
+<td>Calificación</td>
+<td>Nivel de Vulnerabilidad</td>
+</tr>
+<tr class="even">
+<td>Valores dentro del primer umbral</td>
+<td>0.20</td>
+<td>Muy Baja</td>
+</tr>
+<tr class="odd">
+<td>Valores dentro del segundo umbral</td>
+<td>0.40</td>
+<td>Baja</td>
+</tr>
+<tr class="even">
+<td>Valores dentro del tercer umbral</td>
+<td>0.60</td>
+<td>Media</td>
+</tr>
+<tr class="odd">
+<td>Valores dentro del cuarto umbral</td>
+<td>0.80</td>
+<td>Alta</td>
+</tr>
+<tr class="even">
+<td>Valores superiores al cuarto umbral</td>
+<td>1.00 o más</td>
+<td>Muy Alta</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 17%">
+<col style="width: 31%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Indicadores con ponderación de 2.0</strong></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Rango de Valores</td>
+<td>Calificación</td>
+<td>Nivel de Vulnerabilidad</td>
+</tr>
+<tr class="even">
+<td>Valores dentro del primer umbral</td>
+<td>0.40</td>
+<td>Muy Baja</td>
+</tr>
+<tr class="odd">
+<td>Valores dentro del segundo umbral</td>
+<td>0.80</td>
+<td>Baja</td>
+</tr>
+<tr class="even">
+<td>Valores dentro del tercer umbral</td>
+<td>1.20</td>
+<td>Media</td>
+</tr>
+<tr class="odd">
+<td>Valores dentro del cuarto umbral</td>
+<td>1.60</td>
+<td>Alta</td>
+</tr>
+<tr class="even">
+<td>Valores superiores al cuarto umbral</td>
+<td>2.00 o más</td>
+<td>Muy Alta</td>
+</tr>
+</tbody>
+</table>
 <p>De esta forma, a cada indicador se le asigna una calificación entre 0.20 y 1.00 (para indicadores con ponderaciones de 1.0) o entre 0.40 y 2.00 (para indicadores con ponderaciones de 2.0).</p>
-<ol start="5" type="1">
+<ol type="1">
 <li><strong>Agrupación de indicadores por categorías.</strong>
 <ol type="a">
 <li>Los indicadores se agrupan en las siguientes categorías: población, educación, salud, empleo e ingreso, y vivienda.</li>
@@ -380,16 +546,51 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Elaboración del IVS definitivo.</strong>
 <ol type="a">
 <li>Se calcula el promedio de las calificaciones obtenidas en las cinco categorías de indicadores.</li>
-<li>Cada promedio se califica en función del umbral en el que se encuentra, utilizando el siguiente criterio:
-<ol type="i">
-<li>Valores dentro del primer umbral → 0.20 (Muy Baja Vulnerabilidad).</li>
-<li>Valores dentro del segundo umbral → 0.40 (Baja Vulnerabilidad).</li>
-<li>Valores dentro del tercer umbral → 0.60 (Media Vulnerabilidad).</li>
-<li>Valores dentro del cuarto umbral → 0.80 (Alta Vulnerabilidad).</li>
-<li>Valores superiores al cuarto umbral → 1.00 o más (Muy Alta Vulnerabilidad).</li>
+<li>Cada promedio se califica en función del umbral en el que se encuentra. En lugar de conservar la calificación numérica, se asigna la etiqueta de vulnerabilidad correspondiente (muy baja, baja, media, alta, muy alta), utilizando el siguiente criterio:</li>
 </ol></li>
-<li>En lugar de conservar la calificación numérica, se asigna la etiqueta de vulnerabilidad correspondiente (muy baja, baja, media, alta, muy alta).</li>
-</ol></li>
+</ol>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 17%">
+<col style="width: 32%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Rango de Valores</th>
+<th>Calificación</th>
+<th>Nivel de Vulnerabilidad</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Valores dentro del primer umbral</td>
+<td>0.20</td>
+<td>Muy Baja</td>
+</tr>
+<tr class="even">
+<td>Valores dentro del segundo umbral</td>
+<td>0.40</td>
+<td>Baja</td>
+</tr>
+<tr class="odd">
+<td>Valores dentro del tercer umbral</td>
+<td>0.60</td>
+<td>Media</td>
+</tr>
+<tr class="even">
+<td>Valores dentro del cuarto umbral</td>
+<td>0.80</td>
+<td>Alta</td>
+</tr>
+<tr class="odd">
+<td>Valores superiores al cuarto umbral</td>
+<td>1.00 o más</td>
+<td>Muy Alta</td>
+</tr>
+</tbody>
+</table>
+<ol type="1">
 <li><strong>Generación de la base de datos.</strong>
 <ol type="a">
 <li>Se construye una base de datos que asocia las etiquetas de vulnerabilidad asignadas con su respectiva clave geográfica. Esta estructura permite la identificación y el análisis territorial de cada unidad. La base de datos incluye únicamente dos columnas de interés: CVEGEO e IVS.</li>
@@ -833,8 +1034,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./result.html" class="pagination-link" aria-label="Resultados">
-        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Resultados</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./result.html" class="pagination-link" aria-label="Índice de Colores">
+        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Índice de Colores</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

@@ -6,3 +6,6 @@ Es nuestro deseo que facilite la discusión y detone ideas de colaboración con 
 
 
 El equipo de trabajo inicial está compuesto por las Bioingenieras [Laura Johana González Zazueta](https://www.linkedin.com/in/laura-johana-gonzalez-zazueta-727388319/), [Betsaida Lariza López Covarrubias](https://www.linkedin.com/in/betsaida-lariza-lopez-covarrubias-782622296/) y el [Dr. Gener José Avilés Rodríguez](https://www.linkedin.com/in/generaviles/).
+
+
+![](https://generaviles.github.io/EvidenceBasedMed/img/medComp.png)

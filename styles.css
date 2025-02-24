@@ -1,3 +1,12 @@
+/* Justificación de texto */
 p {
     text-align: justify;
+}
+
+/* Tablas */
+/* Fondo uniforme para todas las filas */
+table {
+    background-color: #2a2a2a; /* Gris oscuro más suave para toda la tabla */
+    width: 100%;               /* Ocupar el ancho completo */
+    border-collapse: collapse; /* Elimina los espacios entre celdas */
 }

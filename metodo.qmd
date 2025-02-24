@@ -36,24 +36,22 @@ Además, se incorporaron tres nuevos indicadores:
 
 Finalmente, este estudio emplea 13 indicadores provenientes de la base de datos del INEGI, los cuales se presentan a continuación, organizados por categoría temática:
 
-1. Población
-    a. **POBTOT:** Población total.
-    b. **PROM_OCUP:** Promedio de ocupantes en viviendas particulares habitadas.
-    c. **P3YM_HLI:** Porcentaje de población de habla indígena.
-    d. **PHOGJEF_F:** Población en hogares censales con persona de referencia mujer (porcentaje de jefas de familia).
-2. Educación
-    a. **P15YM_AN:** Porcentaje de analfabetismo (% de población de 15 años y más que no sabe leer ni escribir).
-    b. **GRAPROES:** Grado promedio de escolaridad.
-3. Salud
-    a. **PSINDER:** Porcentaje de población no derechohabiente (% de población que no cuenta con servicios de salud pública).
-4. Empleo
-    a. **PEA:** Porcentaje de la población económicamente activa que recibe menos de dos salarios mínimos.
-    b. **POB15_64:** Razón dependiente (% de población dependiente –menores de 15 años y mayores de 65 años– con relación a la población económicamente productiva).
-5. Vivienda
-    a. **TVIVHAB:** Total de viviendas.
-    b. **VPH_AGUAFV:** Porcentaje de viviendas sin agua entubada.
-    c. **VPH_NODREN:** Porcentaje de viviendas sin drenaje.
-    d. **VPH_PISOTI:** Porcentaje de viviendas con piso de tierra.
+| **Categoría**   | **Indicador**     | **Descripción**                                                                                                                                |
+|-----------------|-------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Población**   | POBTOT            | Población total                                                                                                                                |
+|                 | PROM_OCUP         | Promedio de ocupantes en viviendas particulares habitadas                                                                                      |
+|                 | P3YM_HLI          | Porcentaje de población de habla indígena                                                                                                      |
+|                 | PHOGJEF_F         | Población en hogares censales con persona de referencia mujer (porcentaje de jefas de familia)                                                 |
+| **Educación**   | P15YM_AN          | Porcentaje de analfabetismo (% de población de 15 años y más que no sabe leer ni escribir)                                                     |
+|                 | GRAPROES          | Grado promedio de escolaridad                                                                                                                  |
+| **Salud**       | PSINDER           | Porcentaje de población no derechohabiente (% de población que no cuenta con servicios de salud pública)                                       |
+| **Empleo**      | PEA               | Porcentaje de la población económicamente activa que recibe menos de dos salarios mínimos                                                      |
+|                 | POB15_64          | Razón dependiente (% de población dependiente –menores de 15 años y mayores de 65 años– con relación a la población económicamente productiva) |
+| **Vivienda**    | TVIVHAB           | Total de viviendas                                                                                                                             |
+|                 | VPH_AGUAFV        | Porcentaje de viviendas sin agua entubada                                                                                                      |
+|                 | VPH_NODREN        | Porcentaje de viviendas sin drenaje                                                                                                            |
+|                 | VPH_PISOTI        | Porcentaje de viviendas con piso de tierra                                                                                                     |
+
 
 Todas los indicadores, excepto **PROM_OCUP** y **GRAPROES**, no están reportados como porcentajes por el INEGI, sino como valores absolutos, por lo que es necesario calcular sus porcentajes. **POBTOT** y **TVIVHAB** sirvieron como base para estos cálculos. En el caso de **POB15_64**, primero se obtuvo su valor restándolo de **POBTOT** y posteriormente se calculó el porcentaje correspondiente.
 
@@ -65,19 +63,14 @@ En la nueva versión del IVS del IMTA, los indicadores fueron ponderados de mane
 
 A continuación, se presentan las ponderaciones de las variables coincidentes entre el método reciente del IMTA y el presente estudio.
 
-- Ponderación de 1.0.
-  1. **P3YM_HLI:** Porcentaje de población de habla indígena.
-  2. **PHOGJEF_F:** Población en hogares censales con persona de referencia mujer.
-  3. **P15YM_AN:** Porcentaje de analfabetismo.
-  4. **POB15_64:** Población dependiente.
-  5. **VPH_PISOTI:** Porcentaje de viviendas con piso de tierra.
-   
-- Ponderación de 2.0.
-  1. **GRAPROES:** Grado promedio de escolaridad.
-  2. **PSINDER:** Porcentaje de población no derechohabiente.
-  3. **PEA:** Porcentaje de la población económicamente activa que recibe menos de dos salarios mínimos.
-  4. **VPH_AGUAFV:** Porcentaje de viviendas sin agua entubada.
-  5. **VPH_NODREN:** Porcentaje de viviendas sin drenaje.
+| **Ponderación de 1.0** | **Ponderación de 2.0** |
+|------------------------|------------------------|
+| P3YM_HLI               | GRAPROES               |
+| PHOGJEF_F              | PSINDER                |
+| P15YM_AN               | PEA                    |
+| POB15_64               | VPH_AGUAFV             |
+| VPH_PISOTI             | VPH_NODREN             |
+
 
 Al indicador **PROM_OCUP**,  se le asignó ponderación de 1 por pertenecer a la misma categoría que los demás indicadores de población a pesar no estar indicada en la metodología base del IMTA. De este modo, tenemos la ponderación de los **11 indicadores** de interés.
 
@@ -94,11 +87,15 @@ El indicador **TVIVHAB** y **POBTOT** no recibieron ponderación en este ejercic
     a. El primer umbral se obtiene sumando el intervalo al valor menor.
     b. El segundo umbral se obtiene sumando el intervalo al primer umbral.
     c. Se repite el proceso sucesivamente hasta obtener los cinco umbrales que representan los distintos niveles de vulnerabilidad:
-        i. Muy Baja: Valores entre el mínimo y el primer umbral (mínimo + intervalo).
-        ii. Baja: Valores entre el primer y el segundo umbral (mínimo + 2 * intervalo).
-        iii. Media: Valores entre el segundo y el tercer umbral (mínimo + 3 * intervalo).
-        iv. Alta: Valores entre el tercer y el cuarto umbral (mínimo + 4 * intervalo).
-        v. Muy Alta: Valores mayores que el cuarto umbral (más allá de mínimo + 4 * intervalo).
+
+| Rango de Valores                                                          | Nivel de Vulnerabilidad |
+|---------------------------------------------------------------------------|-------------------------|
+| Valores entre el mínimo y el primer umbral (mínimo + intervalo)           | Muy Baja                |
+| Valores entre el primer y el segundo umbral (mínimo + 2 * intervalo)      | Baja                    |
+| Valores entre el segundo y el tercer umbral (mínimo + 3 * intervalo)      | Media                   |
+| Valores entre el tercer y el cuarto umbral (mínimo + 4 * intervalo)       | Alta                    |
+| Valores mayores que el cuarto umbral (más allá de mínimo + 4 * intervalo) | Muy Alta                |
+
 
 3. **Ajuste para variables de logro o satisfacción.**
     a. En estos casos, el valor mayor se convierte en el umbral más bajo.
@@ -109,37 +106,44 @@ Aplicable a indicadores como el grado promedio de escolaridad (GRAPROES) y la po
 
 4. **Asignación de calificación según los umbrales.**
 
-    a. Indicadores con ponderación de 1.0.
-        i. Valores dentro del primer umbral → Calificación de 0.20 (Muy Baja Vulnerabilidad).
-        ii. Valores dentro del segundo umbral → Calificación de 0.40 (Baja Vulnerabilidad).
-        iii. Valores dentro del tercer umbral → Calificación de 0.60 (Media Vulnerabilidad).
-        iv. Valores dentro del cuarto umbral → Calificación de 0.80 (Alta Vulnerabilidad).
-        v. Valores superiores al cuarto umbral → Calificación de 1.00 o más (Muy Alta Vulnerabilidad).
+| **Indicadores con ponderación de 1.0** |              |                         |
+|----------------------------------------|--------------|-------------------------|
+| Rango de Valores                       | Calificación | Nivel de Vulnerabilidad |
+| Valores dentro del primer umbral       | 0.20         | Muy Baja                |
+| Valores dentro del segundo umbral      | 0.40         | Baja                    |
+| Valores dentro del tercer umbral       | 0.60         | Media                   |
+| Valores dentro del cuarto umbral       | 0.80         | Alta                    |
+| Valores superiores al cuarto umbral    | 1.00 o más   | Muy Alta                |
 
-    b. Indicadores con ponderación de 2.0.
-        i. Valores dentro del primer umbral → Calificación de 0.40 (Muy Baja Vulnerabilidad).
-        ii. Valores dentro del segundo umbral → Calificación de 0.80 (Baja Vulnerabilidad).
-        iii. Valores dentro del tercer umbral → Calificación de 1.20 (Media Vulnerabilidad).
-        iv. Valores dentro del cuarto umbral → Calificación de 1.60 (Alta Vulnerabilidad).
-        v. Valores superiores al cuarto umbral → Calificación de 2.00 o más (Muy Alta Vulnerabilidad).
+| **Indicadores con ponderación de 2.0** |              |                         |
+|----------------------------------------|--------------|-------------------------|
+| Rango de Valores                       | Calificación | Nivel de Vulnerabilidad |
+| Valores dentro del primer umbral       | 0.40         | Muy Baja                |
+| Valores dentro del segundo umbral      | 0.80         | Baja                    |
+| Valores dentro del tercer umbral       | 1.20         | Media                   |
+| Valores dentro del cuarto umbral       | 1.60         | Alta                    |
+| Valores superiores al cuarto umbral    | 2.00 o más   | Muy Alta                |
     
 De esta forma, a cada indicador se le asigna una calificación entre 0.20 y 1.00 (para indicadores con ponderaciones de 1.0) o entre 0.40 y 2.00 (para indicadores con ponderaciones de 2.0).
 
-5. **Agrupación de indicadores por categorías.**
+1. **Agrupación de indicadores por categorías.**
     a. Los indicadores se agrupan en las siguientes categorías: población, educación, salud, empleo e ingreso, y vivienda.
     b. Se calcula el promedio de las calificaciones dentro de cada categoría.
 
-6. **Elaboración del IVS definitivo.**
+2. **Elaboración del IVS definitivo.**
     a. Se calcula el promedio de las calificaciones obtenidas en las cinco categorías de indicadores.
-    b. Cada promedio se califica en función del umbral en el que se encuentra, utilizando el siguiente criterio:
-        i. Valores dentro del primer umbral → 0.20 (Muy Baja Vulnerabilidad).
-        ii. Valores dentro del segundo umbral → 0.40 (Baja Vulnerabilidad).
-        iii. Valores dentro del tercer umbral → 0.60 (Media Vulnerabilidad).
-        iv. Valores dentro del cuarto umbral → 0.80 (Alta Vulnerabilidad).
-        v. Valores superiores al cuarto umbral → 1.00 o más (Muy Alta Vulnerabilidad).
-    c. En lugar de conservar la calificación numérica, se asigna la etiqueta de vulnerabilidad correspondiente (muy baja, baja, media, alta, muy alta).
-   
-7. **Generación de la base de datos.**
+    b. Cada promedio se califica en función del umbral en el que se encuentra. En lugar de conservar la calificación numérica, se asigna la etiqueta de vulnerabilidad correspondiente (muy baja, baja, media, alta, muy alta), utilizando el siguiente criterio:
+
+| Rango de Valores                      | Calificación | Nivel de Vulnerabilidad |
+|---------------------------------------|--------------|-------------------------|
+| Valores dentro del primer umbral      | 0.20         | Muy Baja                |
+| Valores dentro del segundo umbral     | 0.40         | Baja                    |
+| Valores dentro del tercer umbral      | 0.60         | Media                   |
+| Valores dentro del cuarto umbral      | 0.80         | Alta                    |
+| Valores superiores al cuarto umbral   | 1.00 o más   | Muy Alta                |
+
+
+1. **Generación de la base de datos.**
     a. Se construye una base de datos que asocia las etiquetas de vulnerabilidad asignadas con su respectiva clave geográfica. Esta estructura permite la identificación y el análisis territorial de cada unidad. La base de datos incluye únicamente dos columnas de interés: CVEGEO e IVS.
 
 ## Herramientas
