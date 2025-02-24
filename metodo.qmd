@@ -146,6 +146,13 @@ De esta forma, a cada indicador se le asigna una calificación entre 0.20 y 1.00
 1. **Generación de la base de datos.**
     a. Se construye una base de datos que asocia las etiquetas de vulnerabilidad asignadas con su respectiva clave geográfica. Esta estructura permite la identificación y el análisis territorial de cada unidad. La base de datos incluye únicamente dos columnas de interés: CVEGEO e IVS.
 
+
+Para integrar el Índice de Vulnerabilidad Social, seguimos un proceso estructurado que vincula y aplica criterios específicos para su clasificación. A continuación, se presenta un resumen visual de este proceso, donde se detallan las etapas clave en la construcción del índice. Esta representación facilita la comprensión de las fases involucradas.
+
+::: {style="text-align: center;"}
+![Resumen General del Proceso para la Integración del IVS.](images/Resumen_metodo.jpeg){width=700}
+:::
+
 ## Herramientas
 
 Para llevar a cabo el análisis y procesamiento de los datos, así como la generación del Índice de Vulnerabilidad Social, se emplearon diversas herramientas de software que facilitan la gestión de datos, programación, análisis estadístico y visualización. Las principales herramientas utilizadas son:

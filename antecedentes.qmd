@@ -5,13 +5,13 @@ La vulnerabilidad como fenómeno social, implica la presencia de una condición 
 El IVS del Sistema Nacional para el Desarrollo Integral de la Familia (DIF) es un componente clave de la Fórmula para la Distribución del Presupuesto del Ramo 33 Fondo V.i. Surge como una respuesta a la necesidad de distribuir los recursos del país en función de criterios pertinentes y correspondientes a la problemática que atiende el DIF @sndif20017formula. 
 
 ::: {style="text-align: center;"}
-![Sistema Nacional para el Desarrollo Integral de la Familia (DIF)](images/dif.jpeg){width=300}
+![Sistema Nacional para el Desarrollo Integral de la Familia (DIF).](images/dif.jpeg){width=200}
 :::
 
 Mediante el IVS, se mide la magnitud de la población objetivo que es atendida con los programas de la Estrategia Integral de Asistencia Social Alimentaria (EIASA). El primer cálculo del IVS fue en 2002 y la fórmula incorporaba distintos componentes que competen a la asistencia social, con una base de cálculo específica y diversas variables. Desde entonces, la fórmula y sus cálculos se han continuado actualizando, utilizando las fuentes de información recientes @sndif20017formula. En este sentido, el IVS se basa en variables sociales, económicas, educativas y de salud, considerando dos grandes tipos de vulnerabilidad: la familiar e individual, y la infantil @sndif20017formula. Este índice permite a los Sistemas Estatales DIF analizar la vulnerabilidad social en cada estado, destacando problemas específicos y su intensidad. Facilita la focalización de las acciones en zonas del país con mayor incidencia de vulnerabilidad, identificando aquellos sectores que requieren de atención prioritaria. La fórmula que valora el IVS permite establecer en mayor medida una situación más objetiva, equitativa y transparente en la distribución de los recursos, respetando la diversidad regional y estatal, multicultural, étnica, de género y generacional @sndif2002formula. 
 
 ::: {style="text-align: center;"}
-![Estrategia Integral de Asistencia Social Alimentaria (EIASA)](images/eiasa.jpeg){width=300}
+![Estrategia Integral de Asistencia Social Alimentaria (EIASA).](images/eiasa.jpeg){width=200}
 :::
 
 Otro ejemplo de la aplicación del Índice de Vulnerabilidad fue el reporte del Índice de Vulnerabilidad Municipal a la COVID-19, cuyo objetivo fue identificar los municipios más vulnerables ante la amenaza de la enfermedad y entender qué características están más ligadas a esta vulnerabilidad. Para ello, se consideraron aspectos clave como el desarrollo social, la economía y la salubridad @SierraAlcocer2020Indice.
@@ -21,5 +21,18 @@ Por otro lado, diversas organizaciones han desarrollado índices que abordan dis
 El siguiente diagrama proporciona una representación visual de los principales conceptos abordados. A través de esta estructura, se ilustran las interrelaciones entre los distintos componentes de la vulnerabilidad social, destacando su impacto y las herramientas utilizadas para su análisis y mitigación.
 
 ::: {style="text-align: center;"}
-![Diagrama Ilustrativo de IVS en Diversos Sectores](images/diagrama.jpeg){width=700}
+![Diagrama Ilustrativo de IVS en Diversos Sectores.](images/diagrama.jpeg){width=700}
 :::
+
+Además de estos índices, el Índice de Vulnerabilidad Social (SVI), desarrollado por los Centros para el Control y la Prevención de Enfermedades (CDC) y la Agencia para Sustancias Tóxicas y el Registro de Enfermedades (ATSDR), es una herramienta basada en datos geoespaciales que identifica comunidades vulnerables ante emergencias y desastres. El SVI surgió en respuesta a la Ley de Preparación para Pandemias y Todo Tipo de Peligros de 2006, y fue desarrollado en 2007 por un equipo de científicos sociales y geógrafos dentro del Programa de Investigación, Análisis y Servicios Geoespaciales (GRASP). La primera versión de su base de datos se publicó en 2011 junto con su metodología @Flanagan2011SVI. Este índice se basa en 16 variables del censo de los EE. UU. de la Encuesta sobre la comunidad estadounidense (ACS) para identificar comunidades que pueden necesitar apoyo antes, durante o después de los desastres @CDC_SVI.
+
+::: {style="text-align: center;"}
+![Variables del Índice de Vulnerabilidad Social agrupadas en cuatro categorías. Fuente: CDC/ATSDR. Disponible en [SVI CDC/ATSDR](https://www.atsdr.cdc.gov/place-health/php/svi/index.html).](images/IVS_CDC.png){width=500}
+:::
+
+A lo largo de los años, el Índice de Vulnerabilidad Social (SVI) de los CDC/ATSDR ha experimentado cuatro actualizaciones en su base de datos. La siguiente línea de tiempo ilustra estos cambios a través de las versiones publicadas en los años 2000, 2010, 2014 y 2020 @CDC_SVI.
+
+::: {style="text-align: center;"}
+![Actualizaciones del SVI (2000-2020). Fuente: CDC/ATSDR. Disponible en [SVI CDC/ATSDR](https://www.atsdr.cdc.gov/place-health/php/svi/index.html).](images/IVS_Tiempo.jpg){width=500}  
+:::
+
