@@ -18,7 +18,7 @@ Otro ejemplo de la aplicación del Índice de Vulnerabilidad fue el reporte del 
 
 Por otro lado, diversas organizaciones han desarrollado índices que abordan distintos aspectos de la vulnerabilidad social, adaptándose a las problemáticas específicas que cada una atiende por medio de diversos criterios o indicadores. Por ejemplo, el Índice de Marginación (IM) del Consejo Nacional de Población (CONAPO) evalúa el grado de marginación de las poblaciones en México. El Índice de Desarrollo Humano (IDH) del Programa de las Naciones Unidas para el Desarrollo (PNUD) mide el progreso de los países en dimensiones como la salud, la educación y el nivel de vida. Por su parte, el Índice de Rezago Social (IRS) del Consejo Nacional de Evaluación de la Política de Desarrollo Social (CONEVAL) permite identificar las carencias sociales en las entidades federativas, municipios y localidades de México @tecscience2022vulnerabilidad.
 
-El siguiente diagrama proporciona una representación visual de los principales conceptos abordados. A través de esta estructura, se ilustran las interrelaciones entre los distintos componentes de la vulnerabilidad social, destacando su impacto y las herramientas utilizadas para su análisis y mitigación.
+El siguiente diagrama proporciona una representación visual de los principales conceptos abordados. A través de esta estructura, se ilustran las interrelaciones entre los distintos componentes de la vulnerabilidad social.
 
 ::: {style="text-align: center;"}
 ![Diagrama Ilustrativo de IVS en Diversos Sectores.](images/diagrama.jpeg){width=700}
