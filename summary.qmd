@@ -1,7 +1,8 @@
 # Resumen
 
-Este informe tiene como objetivo evaluar la vulnerabilidad social ante inundaciones provocadas por el cambio climático en la región de la Presa La Villita, Michoacán de Ocampo, a nivel de manzana.
+Este informe tiene como objetivo evaluar la vulnerabilidad social en diversas regiones a nivel de manzana.
 
-Para ello, se empleó una metodología basada en umbrales estadísticos, utilizando datos del Censo de Población y Vivienda 2020 del INEGI, específicamente de las Áreas Geoestadísticas Básicas (AGEB). La vulnerabilidad social se clasificó en cinco niveles: Muy baja, Baja, Media, Alta y Muy alta.
+Para ello, se empleó una metodología basada en umbrales estadísticos, utilizando datos del Censo de Población y Vivienda del INEGI, específicamente de las Áreas Geoestadísticas Básicas (AGEB). La vulnerabilidad social se clasificó en cinco niveles: Muy baja, Baja, Media, Alta y Muy alta.
 
-Como resultado, se creó una base de datos que asocia cada nivel de vulnerabilidad con su clave geográfica, lo que permite identificar con precisión las zonas de mayor riesgo ante inundaciones.
+Como resultado, se desarrolló una base de datos que vincula cada nivel de vulnerabilidad con su clave geográfica, permitiendo una identificación precisa de las áreas con mayor riesgo social en distintas localidades. Esto posibilitó la generación de un mapa que ofrece una representación clara y comparativa de la distribución de la vulnerabilidad en la zona de estudio.
+

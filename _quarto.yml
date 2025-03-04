@@ -14,7 +14,11 @@ book:
     - objetivo.qmd
     - datos.qmd
     - metodo.qmd
-    - result.qmd
+    - part: "Resultados"
+      chapters:
+      - resultados_michoacan.qmd
+      - resultados_nogales.qmd
+      - resultados_ensenada.qmd
     - references.qmd
 
 bibliography: references.bib

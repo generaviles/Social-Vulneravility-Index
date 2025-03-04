@@ -14,7 +14,7 @@
     "href": "summary.html",
     "title": "1  Resumen",
     "section": "",
-    "text": "Este informe tiene como objetivo evaluar la vulnerabilidad social ante inundaciones provocadas por el cambio climático en la región de la Presa La Villita, Michoacán de Ocampo, a nivel de manzana.\nPara ello, se empleó una metodología basada en umbrales estadísticos, utilizando datos del Censo de Población y Vivienda 2020 del INEGI, específicamente de las Áreas Geoestadísticas Básicas (AGEB). La vulnerabilidad social se clasificó en cinco niveles: Muy baja, Baja, Media, Alta y Muy alta.\nComo resultado, se creó una base de datos que asocia cada nivel de vulnerabilidad con su clave geográfica, lo que permite identificar con precisión las zonas de mayor riesgo ante inundaciones.",
+    "text": "Este informe tiene como objetivo evaluar la vulnerabilidad social en diversas regiones a nivel de manzana.\nPara ello, se empleó una metodología basada en umbrales estadísticos, utilizando datos del Censo de Población y Vivienda del INEGI, específicamente de las Áreas Geoestadísticas Básicas (AGEB). La vulnerabilidad social se clasificó en cinco niveles: Muy baja, Baja, Media, Alta y Muy alta.\nComo resultado, se desarrolló una base de datos que vincula cada nivel de vulnerabilidad con su clave geográfica, permitiendo una identificación precisa de las áreas con mayor riesgo social en distintas localidades. Esto posibilitó la generación de un mapa que ofrece una representación clara y comparativa de la distribución de la vulnerabilidad en la zona de estudio.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Resumen</span>"
     ]
@@ -24,7 +24,7 @@
     "href": "intro.html",
     "title": "2  Introducción",
     "section": "",
-    "text": "El Índice de Vulnerabilidad Social (IVS) es una medida compuesta utilizada para evaluar el grado de vulnerabilidad de diferentes poblaciones ante riesgos socioeconómicos y ambientales. Se calcula a partir de diversas dimensiones, como la pobreza, la educación, el acceso a servicios de salud y la infraestructura. Este índice es ampliamente utilizado en estudios epidemiológicos, políticas públicas y estrategias de intervención comunitaria, permitiendo identificar poblaciones en mayor riesgo y diseñar estrategias para reducir su vulnerabilidad.\nDado que la vulnerabilidad social es un fenómeno complejo, la actualización constante del IVS y su adaptación a las realidades regionales y locales son esenciales para mejorar las condiciones de vida de los sectores más desfavorecidos y promover un desarrollo equitativo y sostenible.\nEste documento presenta el modelo empleado, junto con los componentes, indicadores y procesos utilizados en la elaboración del Índice de Vulnerabilidad Social en un caso específico, proporcionando una visión integral de su estructura y aplicación.",
+    "text": "El Índice de Vulnerabilidad Social (IVS) es una medida compuesta utilizada para evaluar el grado de vulnerabilidad de diferentes poblaciones ante riesgos socioeconómicos y ambientales. Se calcula a partir de diversas dimensiones, como la pobreza, la educación, el acceso a servicios de salud y la infraestructura. Este índice es ampliamente utilizado en estudios epidemiológicos, políticas públicas y estrategias de intervención comunitaria, permitiendo identificar poblaciones en mayor riesgo y diseñar estrategias para reducir su vulnerabilidad.\nDado que la vulnerabilidad social es un fenómeno complejo, la actualización constante del IVS y su adaptación a las realidades regionales y locales son esenciales para mejorar las condiciones de vida de los sectores más desfavorecidos y promover un desarrollo equitativo y sostenible.\nEste documento presenta el método empleado, junto con los componentes, indicadores y procesos utilizados en la elaboración del Índice de Vulnerabilidad Social en un caso específico, proporcionando una visión integral de su estructura y aplicación.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción</span>"
     ]
@@ -44,7 +44,7 @@
     "href": "objetivo.html",
     "title": "4  Objetivo",
     "section": "",
-    "text": "Determinar el Índice de Vulnerabilidad Social a nivel de manzana ante el riesgo de inundaciones derivadas del cambio climático, asociándolo con su clave geográfica en la zona de influencia de la Presa La Villita, Michoacán de Ocampo.",
+    "text": "Determinar el Índice de Vulnerabilidad Social a nivel de manzana, asociándolo con su clave geográfica en diversas regiones de estudio.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Objetivo</span>"
     ]
@@ -64,7 +64,7 @@
     "href": "datos.html#base-de-datos-para-obtener-la-clave-geográfica-e-indicadores-para-la-construcción-del-ivs",
     "title": "5  Datos",
     "section": "",
-    "text": "Fuente: Datos abiertos del Censo de Población y Vivienda 2020 del INEGI, específicamente de las Áreas Geoestadísticas Básicas (AGEB) de Michoacán de Ocampo (9.67 MB)",
+    "text": "Fuente: Datos abiertos del Censo de Población y Vivienda 2020 del INEGI, específicamente de las Áreas Geoestadísticas Básicas (AGEB)",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Datos</span>"
     ]
@@ -134,19 +134,31 @@
     "href": "metodo.html#herramientas",
     "title": "6  Método",
     "section": "6.5 Herramientas",
-    "text": "6.5 Herramientas\nPara llevar a cabo el análisis y procesamiento de los datos, así como la generación del Índice de Vulnerabilidad Social, se emplearon diversas herramientas de software que facilitan la gestión de datos, programación, análisis estadístico y visualización. Las principales herramientas utilizadas son:\n\nQuarto: Se utilizó como herramienta para la creación y documentación del informe. Quarto permite generar documentos interactivos y reproducibles que integran código y resultados en un solo archivo. Su compatibilidad con múltiples lenguajes de programación facilita la combinación de análisis en R, Python y otras herramientas.\nR: Fue utilizado para el análisis estadístico y manejo de datos. R es un lenguaje ampliamente utilizado en la ciencia de datos y estadísticas, proporcionando un amplio conjunto de paquetes para manipulación de datos, análisis de variables y creación de gráficos.\nVisual Studio Code (VS Code): Se utilizó como entorno de desarrollo integrado (IDE) para escribir y ejecutar scripts en Python y R. VS Code es una herramienta flexible que permite trabajar con diversos lenguajes de programación y proporciona características útiles como la depuración, el control de versiones y la integración con otras herramientas de desarrollo.",
+    "text": "6.5 Herramientas\nPara llevar a cabo el análisis y procesamiento de los datos, así como la generación del Índice de Vulnerabilidad Social, se emplearon diversas herramientas de software que facilitan la gestión de datos, programación, análisis estadístico y visualización. Las principales herramientas utilizadas son:\n\nQuarto: Se utilizó como herramienta para la creación y documentación del informe. Quarto permite generar documentos interactivos y reproducibles que integran código y resultados en un solo archivo. Su compatibilidad con múltiples lenguajes de programación facilita la combinación de análisis en R, Python y otras herramientas.\nVisual Studio Code (VS Code): Se utilizó como entorno de desarrollo integrado (IDE) para escribir y ejecutar scripts en Python y R. VS Code es una herramienta flexible que permite trabajar con diversos lenguajes de programación y proporciona características útiles como la depuración, el control de versiones y la integración con otras herramientas de desarrollo.",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Método</span>"
     ]
   },
   {
-    "objectID": "result.html",
-    "href": "result.html",
-    "title": "7  Resultados",
+    "objectID": "resultados_michoacan.html",
+    "href": "resultados_michoacan.html",
+    "title": "7  Resultados: Caso de Uso Michoacán",
     "section": "",
-    "text": "7.1 Mapa de vulnerabilidad social\nEl siguiente mapa representa la distribución del Índice de Vulnerabilidad Social (IVS) en los alrededores de la presa La Villita, en Michoacán de Ocampo. Para su elaboración, se construyó una base de datos que vincula las etiquetas de vulnerabilidad con su respectiva clave geográfica (CVEGEO).\nEsta categorización se obtuvo mediante una aproximación estadística basada en umbrales, lo que permite una interpretación comparativa de la vulnerabilidad en la zona de estudio.\nLos niveles de vulnerabilidad se clasifican en cinco categorías representadas por una escala de colores:\nAdemás, se señalan las áreas donde no se contó con suficientes datos para realizar una clasificación precisa.\nCódigo de Colores",
+    "text": "7.1 Mapa de vulnerabilidad social\nEl objetivo de este caso de uso es determinar el Índice de Vulnerabilidad Social a nivel de manzana ante el riesgo de inundaciones derivadas del cambio climático, asociándolo con su clave geográfica en la zona de los alrededores de la Presa La Villita, Michoacán de Ocampo.\nPara ello, se utilizó una aproximación estadística basada en umbrales, clasificando la vulnerabilidad en cinco niveles:\nAdemás, se señalan las áreas donde no se contó con suficientes datos para realizar una clasificación precisa.\nSe construyó una base de datos que vincula las etiquetas de vulnerabilidad con su respectiva clave geográfica (CVEGEO). Esta base de datos permitió la creación de un mapa que facilita una interpretación comparativa de la vulnerabilidad en la zona de estudio. Este mapa categoriza la vulnerabilidad mediante una escala de colores, lo que mejora la comprensión visual de la distribución de la vulnerabilidad.\nCódigo de colores",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Resultados</span>"
+      "Resultados",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Resultados: Caso de Uso Michoacán</span>"
+    ]
+  },
+  {
+    "objectID": "resultados_michoacan.html#mapa-de-vulnerabilidad-social",
+    "href": "resultados_michoacan.html#mapa-de-vulnerabilidad-social",
+    "title": "7  Resultados: Caso de Uso Michoacán",
+    "section": "",
+    "text": "Muy baja\nBaja\nMedia\nAlta\nMuy alta\n\n\n\n\n\n\n\nMapa de Vulnerabilidad Social en los alrededores de la presa La Villita (fondo satelital)\n\n\n\n\n\n\n\nMapa de Vulnerabilidad Social en los alrededores de la presa La Villita\n\n\n\n\n\n\n\n\n\n\n\nColor\nNivel de Vulnerabilidad\n\n\n\n\n\nMuy Alta\n\n\n\nAlta\n\n\n\nMedia\n\n\n\nBaja\n\n\n\nMuy Baja\n\n\n\nDatos Insuficientes",
+    "crumbs": [
+      "Resultados",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Resultados: Caso de Uso Michoacán</span>"
     ]
   },
   {
@@ -160,43 +172,47 @@
     ]
   },
   {
-    "objectID": "result.html#mapa-de-vulnerabilidad-social",
-    "href": "result.html#mapa-de-vulnerabilidad-social",
-    "title": "7  Resultados",
+    "objectID": "resultados_nogales.html",
+    "href": "resultados_nogales.html",
+    "title": "8  Resultados: Caso de Uso Nogales Sonora.",
     "section": "",
-    "text": "Muy baja\nBaja\nMedia\nAlta\nMuy alta\n\n\n\n\n\n\nMapa de Vulnerabilidad Social en los alrededores de la presa La Villita (fondo satelital)\n\n\n\n\n\n\n\nMapa de Vulnerabilidad Social en los alrededores de la presa La Villita\n\n\n\n\n\n\n\n\n\nMuy Alta\n\n\n\n\n\n\nAlta\n\n\n\n\n\n\nMedia\n\n\n\n\n\n\nBaja\n\n\n\n\n\n\nMuy Baja\n\n\n\n\n\n\nDatos Insuficientes",
+    "text": "8.1 Mapa de vulnerabilidad social\nEn este caso de uso, se determina el Índice de Vulnerabilidad Social a nivel de manzana, asociandolo con su clave geográfica en la ciudad de Nogales, Sonora.\nUtilizando la misma metodología de clasificación por umbrales, la vulnerabilidad se categoriza en cinco niveles:\nTambién se identifican áreas con datos insuficientes para una clasificación precisa.\nEl resultado se presenta en un mapa que permite visualizar y comparar la distribución de la vulnerabilidad en la zona de estudio.\nCódigo de colores",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Resultados</span>"
+      "Resultados",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Resultados: Caso de Uso Nogales Sonora.</span>"
     ]
   },
   {
-    "objectID": "result.html#índice-de-colores",
-    "href": "result.html#índice-de-colores",
-    "title": "Índice de Colores",
-    "section": "7.2 Índice de Colores",
-    "text": "7.2 Índice de Colores\n\n\n\n\n\n#f07c4a\n\n\n\n\n\n\n#7d9a6a\n\n\n\n\n\n\n#8a8a8e\n\n\n\n\n\n\n#ffdd80\n\n\n\n\n\n\n#d7191c\n\n\n\n\n\n\n#4d7f89\n\n\n\n\n\n\n#faf9fa\n\n\n\nEsta categorización se obtuvo mediante una aproximación estadística basada en umbrales, lo que permite una interpretación comparativa de la vulnerabilidad en la zona de estudio.",
+    "objectID": "resultados_nogales.html#mapa-de-vulnerabilidad-social",
+    "href": "resultados_nogales.html#mapa-de-vulnerabilidad-social",
+    "title": "8  Resultados: Caso de Uso Nogales Sonora.",
+    "section": "",
+    "text": "Muy baja\nBaja\nMedia\nAlta\nMuy alta\n\n\n\n\n\n\n\nMapa de Vulnerabilidad Social en Nogales, Sonora (fondo satelital)\n\n\n\n\n\n\n\n\n\n\n\nColor\nNivel de Vulnerabilidad\n\n\n\n\n\nMuy Alta\n\n\n\nAlta\n\n\n\nMedia\n\n\n\nBaja\n\n\n\nMuy Baja\n\n\n\nDatos Insuficientes",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Índice de Colores</span>"
+      "Resultados",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Resultados: Caso de Uso Nogales Sonora.</span>"
     ]
   },
   {
-    "objectID": "result.html#código-de-colores",
-    "href": "result.html#código-de-colores",
-    "title": "Índice de Colores",
-    "section": "7.2 Código de Colores",
-    "text": "7.2 Código de Colores\n\n\n\n\n\n#f07c4a\n\n\n\n\n\n\n#7d9a6a\n\n\n\n\n\n\n#8a8a8e\n\n\n\n\n\n\n#ffdd80\n\n\n\n\n\n\n#d7191c\n\n\n\n\n\n\n#4d7f89\n\n\n\n\n\n\n#faf9fa\n\n\n\nEsta categorización se obtuvo mediante una aproximación estadística basada en umbrales, lo que permite una interpretación comparativa de la vulnerabilidad en la zona de estudio.",
+    "objectID": "resultados_ensenada.html",
+    "href": "resultados_ensenada.html",
+    "title": "9  Resultados: Caso de Uso Ensenada, Baja California",
+    "section": "",
+    "text": "9.1 Mapa de vulnerabilidad social\nEn este caso de uso, se determina el Índice de Vulnerabilidad Social a nivel de manzana, asociándolo con su clave geográfica en la colonia Punta Banda, Ensenada, Baja California.\nUtilizando la misma metodología de clasificación por umbrales, la vulnerabilidad se categoriza en cinco niveles:\nTambién se identifican áreas con datos insuficientes para una clasificación precisa.\nEl resultado se presenta en un mapa que permite visualizar y comparar la distribución de la vulnerabilidad en la zona de estudio.\nCódigo de colores",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Índice de Colores</span>"
+      "Resultados",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Resultados: Caso de Uso Ensenada, Baja California</span>"
     ]
   },
   {
-    "objectID": "result.html#mapa-de-vulnerabilidad-social-en-los-alrededores-de-la-presa-la-villita",
-    "href": "result.html#mapa-de-vulnerabilidad-social-en-los-alrededores-de-la-presa-la-villita",
-    "title": "7  Resultados",
-    "section": "7.2 Mapa de Vulnerabilidad Social en los alrededores de la presa La Villita",
-    "text": "7.2 Mapa de Vulnerabilidad Social en los alrededores de la presa La Villita\n\n\nCódigo de Colores\n\n\n\n\n\nMuy Alta\n\n\n\n\n\n\nAlta\n\n\n\n\n\n\nMedia\n\n\n\n\n\n\nBaja\n\n\n\n\n\n\nMuy Baja\n\n\n\n\n\n\nDatos Insuficientes\n\n\n\nEsta categorización se obtuvo mediante una aproximación estadística basada en umbrales, lo que permite una interpretación comparativa de la vulnerabilidad en la zona de estudio.",
+    "objectID": "resultados_ensenada.html#mapa-de-vulnerabilidad-social",
+    "href": "resultados_ensenada.html#mapa-de-vulnerabilidad-social",
+    "title": "9  Resultados: Caso de Uso Ensenada, Baja California",
+    "section": "",
+    "text": "Muy baja\nBaja\nMedia\nAlta\nMuy alta\n\n\n\n\n\n\n\nMapa de Vulnerabilidad Social en Nogales, Sonora (fondo satelital)\n\n\n\n\n\n\n\n\n\n\n\nColor\nNivel de Vulnerabilidad\n\n\n\n\n\nMuy Alta\n\n\n\nAlta\n\n\n\nMedia\n\n\n\nBaja\n\n\n\nMuy Baja\n\n\n\nDatos Insuficientes",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Resultados</span>"
+      "Resultados",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Resultados: Caso de Uso Ensenada, Baja California</span>"
     ]
   }
 ]

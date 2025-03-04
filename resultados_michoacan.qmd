@@ -1,0 +1,36 @@
+# Resultados: Caso de Uso Michoacán
+
+## Mapa de vulnerabilidad social
+
+El objetivo de este caso de uso es determinar el Índice de Vulnerabilidad Social a nivel de manzana ante el riesgo de inundaciones derivadas del cambio climático, asociándolo con su clave geográfica en la zona de los alrededores de la Presa La Villita, Michoacán de Ocampo.
+
+Para ello, se utilizó una aproximación estadística basada en umbrales, clasificando la vulnerabilidad en cinco niveles: 
+
+* Muy baja
+* Baja
+* Media
+* Alta
+* Muy alta 
+  
+Además, se señalan las áreas donde no se contó con suficientes datos para realizar una clasificación precisa.
+
+Se construyó una base de datos que vincula las etiquetas de vulnerabilidad con su respectiva clave geográfica (CVEGEO). Esta base de datos permitió la creación de un mapa que facilita una interpretación comparativa de la vulnerabilidad en la zona de estudio. Este mapa categoriza la vulnerabilidad mediante una escala de colores, lo que mejora la comprensión visual de la distribución de la vulnerabilidad.
+
+::: {style="text-align: center;"}
+![Mapa de Vulnerabilidad Social en los alrededores de la presa La Villita (fondo satelital)](images/MapaMichoacan.png){width=700}
+:::
+
+::: {style="text-align: center;"}
+![Mapa de Vulnerabilidad Social en los alrededores de la presa La Villita](images/MapaMichoacan2.png){width=700}
+:::
+
+**Código de colores**
+
+| Color | Nivel de Vulnerabilidad |
+|-------|-------------------------|
+| <span style="display:inline-block; width:20px; height:20px; background-color:#d7191c;"></span> | Muy Alta                |
+| <span style="display:inline-block; width:20px; height:20px; background-color:#f07c4a;"></span> | Alta                    |
+| <span style="display:inline-block; width:20px; height:20px; background-color:#ffdd80;"></span> | Media                   |
+| <span style="display:inline-block; width:20px; height:20px; background-color:#7d9a6a;"></span> | Baja                    |
+| <span style="display:inline-block; width:20px; height:20px; background-color:#4d7f89;"></span> | Muy Baja                |
+| <span style="display:inline-block; width:20px; height:20px; background-color:#8a8a8e;"></span> | Datos Insuficientes     |
