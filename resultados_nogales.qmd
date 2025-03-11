@@ -17,7 +17,7 @@ También se identifican áreas con datos insuficientes para una clasificación p
 El resultado se presenta en un mapa que permite visualizar y comparar la distribución de la vulnerabilidad en la zona de estudio.
 
 ::: {style="text-align: center;"}
-![Mapa de Vulnerabilidad Social en Nogales, Sonora (fondo satelital)](images/MapaNogales.png){width=700}
+![Mapa de Vulnerabilidad Social en Nogales, Sonora (fondo satelital)](images/MapaEtiquetas.png){width=700}
 :::
 
 **Código de colores**
