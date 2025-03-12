@@ -1,0 +1,32 @@
+# Resultados: Caso de Uso Nogales Sonora.
+
+## Mapa de vulnerabilidad social
+
+En este caso de uso, se determina el Índice de Vulnerabilidad Social a nivel de manzana, asociandolo con su clave geográfica en la ciudad de Nogales, Sonora. 
+
+Utilizando la misma metodología de clasificación por umbrales, la vulnerabilidad se categoriza en cinco niveles:
+
+* Muy baja
+* Baja
+* Media
+* Alta
+* Muy alta 
+
+También se identifican áreas con datos insuficientes para una clasificación precisa. 
+
+El resultado se presenta en un mapa que permite visualizar y comparar la distribución de la vulnerabilidad en la zona de estudio.
+
+::: {style="text-align: center;"}
+![Mapa de Vulnerabilidad Social en Nogales, Sonora (fondo satelital)](images/MapaEtiquetas.png){width=700}
+:::
+
+**Código de colores**
+
+| Color | Nivel de Vulnerabilidad |
+|-------|-------------------------|
+| <span style="display:inline-block; width:20px; height:20px; background-color:#d7191c;"></span> | Muy Alta                |
+| <span style="display:inline-block; width:20px; height:20px; background-color:#f07c4a;"></span> | Alta                    |
+| <span style="display:inline-block; width:20px; height:20px; background-color:#ffdd80;"></span> | Media                   |
+| <span style="display:inline-block; width:20px; height:20px; background-color:#7d9a6a;"></span> | Baja                    |
+| <span style="display:inline-block; width:20px; height:20px; background-color:#4d7f89;"></span> | Muy Baja                |
+| <span style="display:inline-block; width:20px; height:20px; background-color:#8a8a8e;"></span> | Datos Insuficientes     |

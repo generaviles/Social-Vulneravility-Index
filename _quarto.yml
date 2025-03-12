@@ -1,5 +1,6 @@
 project:
   type: book
+  output-dir: docs
 
 book:
   title: "Índice de Vulnerablidad Social"
@@ -7,17 +8,23 @@ book:
   date: "1/27/2025"
   chapters:
     - index.qmd
-    - intro.qmd
     - summary.qmd
+    - intro.qmd
+    - antecedentes.qmd
+    - objetivo.qmd
+    - datos.qmd
+    - metodo.qmd
+    - part: "Resultados"
+      chapters:
+      - resultados_michoacan.qmd
+      - resultados_nogales.qmd
+      - resultados_ensenada.qmd
     - references.qmd
 
 bibliography: references.bib
+csl: ieee.csl
 
 format:
   html:
-    theme: cosmo
-  pdf:
-    documentclass: scrreprt
-
-
-
+    theme: darkly
+    css: styles.css

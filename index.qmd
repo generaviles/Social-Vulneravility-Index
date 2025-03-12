@@ -1,5 +1,11 @@
-# Prefacio {.unnumbered}
+# Presentación {.unnumbered}
 
-This is a Quarto book.
+Éste espacio muestra los resultados de los ejercicios iniciales realizados por el equipo de Medicina Computacional de la Universidad Autónoma de Baja California alrededor del concepto del Índice de Vulnerabilidad Social aplicado a análisis geoestadístico.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+Es nuestro deseo que facilite la discusión y detone ideas de colaboración con colegas en las áreas de salud pública, desarrollo social y otras disciplinas relacionadas.
+
+
+El equipo de trabajo inicial está compuesto por las Bioingenieras [Laura Johana González Zazueta](https://www.linkedin.com/in/laura-johana-gonzalez-zazueta-727388319/), [Betsaida Lariza López Covarrubias](https://www.linkedin.com/in/betsaida-lariza-lopez-covarrubias-782622296/) y el [Dr. Gener José Avilés Rodríguez](https://www.linkedin.com/in/generaviles/).
+
+
+![](https://generaviles.github.io/EvidenceBasedMed/img/medComp.png)

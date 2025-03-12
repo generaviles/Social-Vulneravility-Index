@@ -1,0 +1,3 @@
+# Objetivo
+
+Determinar el Índice de Vulnerabilidad Social a nivel de manzana, asociándolo con su clave geográfica en diversas regiones de estudio.
